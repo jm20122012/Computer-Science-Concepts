@@ -6,7 +6,7 @@ class PlaneQueue:
         self.plane_list: object = PlaneList()
         self.length: int = 0
     
-    # TODO: Write push() and pop() instance methods. push() adds an item to the queue
+    #       Write push() and pop() instance methods. push() adds an item to the queue
     #       and adds 1 to length. pop() removes and returns the first item in 
     #       the queue and subtracts 1 from length.
     
