@@ -49,6 +49,9 @@ class LinkedList {
 const list = new LinkedList();
 list.prepend(0);
 
+const min = 1;
+const max = 100;
+
 for (let i = 0; i < 20; i++) {
     const randomInt = Math.floor(Math.random() * (max - min + 1)) + min;
     list.append(randomInt);
